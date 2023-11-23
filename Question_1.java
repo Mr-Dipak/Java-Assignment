@@ -22,6 +22,7 @@ class Question_1 {
     public static void main(String args[]){
 
     Question_1 table1 = new Question_1();
+    
     Scanner input = new Scanner(System.in);
 
 
