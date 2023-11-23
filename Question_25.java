@@ -8,6 +8,8 @@ public class Question_25 extends Frame {
     int size = 12;
     int fontStyle = Font.PLAIN;
      int red = 0, green = 0, blue = 0;
+
+     
   
 
     Question_25(){
@@ -66,6 +68,8 @@ public class Question_25 extends Frame {
         b3.addActionListener( new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 operation(e);
+
+                int font = Font.BOLD;
 
             }
         });

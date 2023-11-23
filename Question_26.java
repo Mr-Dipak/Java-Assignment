@@ -35,6 +35,7 @@ public class Question_26 {
 
     
 
+    
     public static void main(String args[]){
 
     new Question_26().ternary();
