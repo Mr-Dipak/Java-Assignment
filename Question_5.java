@@ -15,23 +15,21 @@ public class Question_5 {
 static void nameArray( ){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Enter the size of the array");
-    int size = Integer.parseInt(input.nextLine());
 
-    String []arr = new String[size];
+    String []arr = new String[5];
     
 
     for (int i = 0; i<arr.length;i++){
 
         System.out.print("Enter Name"+ (i+1)+":");
-        arr [0] = input.nextLine();
+        arr [i] = input.nextLine();
 
 
     }
 
      for (int i = 0; i<arr.length;i++){
 
-        System.out.println(arr[0].toUpperCase());
+        System.out.println(arr[i].toUpperCase());
 
 
     }
