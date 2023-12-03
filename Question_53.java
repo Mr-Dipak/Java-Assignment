@@ -58,16 +58,6 @@ public class Question_53 extends Applet {
 
 
 
-              
-
-      
-
-            
-
-
-            
-
-
         }
 
        
