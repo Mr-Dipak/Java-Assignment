@@ -31,7 +31,7 @@ public class Question_21 extends Frame {
 
 
         // Creating a object of outer class.
-       OuterClass obj = new OuterClass(this);
+       OuterClass2 obj = new OuterClass2(this);
 
         b1.addActionListener(obj);
         b2.addActionListener(obj);
@@ -66,9 +66,9 @@ public class Question_21 extends Frame {
     
 }
 
-class OuterClass implements ActionListener{
+class OuterClass2 implements ActionListener{
     Question_21 obj;
-    OuterClass(Question_21 obj){
+    OuterClass2(Question_21 obj){
         this.obj = obj;
     }
 

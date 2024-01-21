@@ -19,13 +19,10 @@ public class Question_7 {
         System.out.printf("Enter Number %d: ",i+1);
         arr [i] = input.nextInt();
         }
-        int  x,y,z,w;
-        x= arr [0];
-        y= arr[1];
-        z= arr[2];
-        w = arr[3];
+         
+      
 
-        int result = findGreater(x,y,z,w);
+        int result = findGreater(arr[0],arr[1],arr[2],arr[3]);
 
         System.out.println(result+" is a greater number");
     
@@ -39,8 +36,8 @@ public class Question_7 {
     result= findGreater1(x,z);
    }
 
-   else if (y>x){
-    result = findGreater1(y, w);
+   else if (y>w){
+    result = findGreater1(y,z);
    }
    else{
     result = findGreater1(z,w);

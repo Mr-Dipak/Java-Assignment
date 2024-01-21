@@ -40,6 +40,6 @@ public class Question_49 extends Applet{
 }
 
 /*
- <applet code="Question_49.java" width="1000" height="1000">
+ <applet code="Question_49.class" width="1000" height="1000">
  </applet>
  */

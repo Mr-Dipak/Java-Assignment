@@ -80,7 +80,8 @@ Button grButton;
 
          
          int n = Integer.parseInt(textField.getText());
-         StringBuilder result = new StringBuilder();
+        //  StringBuilder result = new StringBuilder();
+            String result = "";
 
             int product = 0;
 
@@ -88,9 +89,11 @@ Button grButton;
                  product = n *i;
             
 
-            result.append(n +  " X " + i + " = "+ product+", " );
+            result +=(n +  " X " + i + " = "+ product+", " );
+            // result.append(n +  " X " + i + " = "+ product+", " );
             }
-            resultTextField.setText(result.toString());
+            // resultTextField.setText(result.toString());
+            resultTextField.setText(result);
             
         }
 
